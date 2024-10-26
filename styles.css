@@ -1,0 +1,131 @@
+/* Estilo general para la barra lateral izquierda */
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    color: #2e7bcf;
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar p {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Estilo para las tarjetas de resumen */
+.tarjeta-resumen {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tarjeta-resumen h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.tarjeta-resumen p {
+    font-size: 2em;
+}
+
+/* Estilo de las tablas de datos */
+.dataframe {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dataframe td, .dataframe th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.dataframe tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.dataframe tr:hover {
+    background-color: #ddd;
+}
+
+.dataframe th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilo de los botones */
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para la barra lateral derecha (detalles del cliente) */
+.sidebar-right {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Barra lateral derecha fija */
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20%;
+    overflow-y: auto;
+    margin-right: 10px;
+}
+
+.sidebar-right h3 {
+    color: #2e7bcf;
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar-right p {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Estilos generales para los gráficos */
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.stMarkdown h3 {
+    color: #2e7bcf;
+    font-family: 'Arial', sans-serif;
+}
+
+.stMarkdown p {
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* Espacios entre secciones */
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+div[role="columnheader"] {
+    font-weight: bold;
+    color: #4CAF50;
+}
