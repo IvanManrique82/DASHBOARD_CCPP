@@ -1,4 +1,6 @@
 streamlit
 pandas
 plotly
-openpyxl  # Solo si estás usando archivos Excel (.xlsx)
+openpyxl  # Solo si trabajas con archivos Excel
+bcrypt  # Añadir esta línea para manejar el cifrado de contraseñas
+
